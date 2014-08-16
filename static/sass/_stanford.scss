@@ -185,20 +185,12 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-<<<<<<< HEAD
-<<<<<<< HEAD
-$homepage-bg-image: url('https://www.dropbox.com/s/wrdyag8wctl6ijn/Empty%20IdeaLab.jpg');
-=======
-$homepage-bg-image: url('https://dl.dropboxusercontent.com/u/1177757/Empty%20IdeaLab.jpg');
->>>>>>> FETCH_HEAD
-=======
-$homepage-bg-image: url('https://dl.dropboxusercontent.com/u/1177757/Empty%20IdeaLab.jpg');
->>>>>>> FETCH_HEAD
+$homepage-bg-image: url('../themes/stanford/images/cern_pan.jpg');
 
 $login-banner-image: none;
 $register-banner-image: none;
 
-$video-thumb-url: 'http://ictr-phe14.web.cern.ch/ictr-phe14/images/logos/cern.jpg';
+$video-thumb-url: '../themes/stanford/images/video-thumb.png';
 
 //-----------------
 //  Mixin Styles
@@ -214,11 +206,6 @@ $video-thumb-url: 'http://ictr-phe14.web.cern.ch/ictr-phe14/images/logos/cern.jp
     margin: 0 !important;
     text-align: right;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> FETCH_HEAD
 
 //-----------------------
 //  Stanford Extra Styles
@@ -234,7 +221,3 @@ $video-thumb-url: 'http://ictr-phe14.web.cern.ch/ictr-phe14/images/logos/cern.jp
     background-repeat: no-repeat;
     border: none;
 }
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD

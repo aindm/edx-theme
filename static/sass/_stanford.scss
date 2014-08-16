@@ -10,10 +10,10 @@
 //-----------------
 
 //Cardinal Color Variables
-$cardinal-red: #8C1515;
-$dark-red: #820000; //Link Color
-$cardinal-light: #c83737; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
-$cardinal-bg: #e9afaf; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
+$cardinal-red: #0053A1;
+$dark-red: #0053A1; //Link Color
+$cardinal-light: #0053A1; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
+$cardinal-bg: #0053A1; //Selected Content BG Color, ie. calendar     
 
 //Beige Color Variables
 $beige: #9d9573;
@@ -185,7 +185,11 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
+<<<<<<< HEAD
 $homepage-bg-image: url('https://www.dropbox.com/s/wrdyag8wctl6ijn/Empty%20IdeaLab.jpg');
+=======
+$homepage-bg-image: url('https://dl.dropboxusercontent.com/u/1177757/Empty%20IdeaLab.jpg');
+>>>>>>> FETCH_HEAD
 
 $login-banner-image: none;
 $register-banner-image: none;
@@ -206,3 +210,21 @@ $video-thumb-url: 'http://ictr-phe14.web.cern.ch/ictr-phe14/images/logos/cern.jp
     margin: 0 !important;
     text-align: right;
 }
+<<<<<<< HEAD
+=======
+
+//-----------------------
+//  Stanford Extra Styles
+//-----------------------
+#stanford-footer-edx-image {
+    display: block;
+    height: 40px;
+    width: 120px;
+    padding-bottom: 10px;
+    float: right;
+    background-image: url("https://files.edx.org/openedx-logos/edx-openedx-logo-tag-light.png");
+    background-size: 120px 40px;
+    background-repeat: no-repeat;
+    border: none;
+}
+>>>>>>> FETCH_HEAD

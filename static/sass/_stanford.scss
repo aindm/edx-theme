@@ -185,12 +185,12 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-$homepage-bg-image: url('../themes/stanford/images/cern_pan.jpg');
+$homepage-bg-image: url('../themes/stanford//static/images/cern_pan.jpg');
 
 $login-banner-image: none;
 $register-banner-image: none;
 
-$video-thumb-url: '../themes/stanford/images/video-thumb.png';
+$video-thumb-url: '../themes/stanford/static/images/video-thumb.png';
 
 //-----------------
 //  Mixin Styles
